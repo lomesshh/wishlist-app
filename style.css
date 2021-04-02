@@ -1,17 +1,21 @@
 body {
-    background-color: #34495e;
+    background: url(https://i.postimg.cc/Gt9PtyKs/wishlist1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container {
-    width: 350px;
+    width: 400px;
     height: auto;
     margin: 0 auto;
     text-align: center;
-    background: white;
-    height: 800px;
+    background: url(https://i.postimg.cc/yxGVCkvP/pexels-steve-johnson-1484759.jpg);
+    height: 685px;
     overflow-y: auto;
     color: black;
-    border: 10px solid #01a3a4;
+    border: 10px solid cyan;
     border-radius: 10px;
 }
 
@@ -28,7 +32,7 @@ body {
 
 #container ul li {
     list-style: none;
-    border: 2px solid #b5c5dd;
+    border: 2px solid grey;
     width: 80%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
@@ -51,7 +55,7 @@ body {
     height: 30px;
     margin: 5px;
     -webkit-appearance: none;
-    border: 2px solid #b5c5dd;
+    border: 2px solid grey;
     position: relative;
     outline: 0;
 }
@@ -109,13 +113,13 @@ body {
 }
 
 #container .control #add {
-    background-color: #2980b9;
+    background-color: green;
     border-radius: 20px;
 }
 
 #container .control #remove {
     background-color: #c0392b;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #container .mycheck {
